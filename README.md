@@ -1,4 +1,4 @@
-# 🧪 Playwright E-Commerce Automation Suite (TypeScript)
+# Playwright E-Commerce Automation Suite (TypeScript)
 
 This project automates end-to-end test scenarios for the **Advantage Online Shopping** demo application using **Playwright** with **TypeScript**.  
 The suite validates key user journeys such as registration, login, product selection, and checkout using a **Page Object Model (POM)** design.
