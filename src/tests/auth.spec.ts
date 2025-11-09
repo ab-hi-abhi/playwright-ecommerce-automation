@@ -142,7 +142,7 @@ test('Registartion : Validate the inline error messages shown for password field
     await auth.fillRegistrationFields({ password: '' });
     //clicking out side of the password field to trigger validation
     await page.locator('body').click();
-    await utils.validateInlineErrorMessage(auth.passwordInput,"Email field is required")
+    await utils.validateInlineErrorMessage(auth.passwordInput,"Password field is required")
 
   });
 
