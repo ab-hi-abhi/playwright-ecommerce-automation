@@ -5,7 +5,13 @@
   "scripts": {
     "test": "npx playwright test",
     "test:chromium": "npx playwright test --project=chromium",
-    "test:headed": "npx playwright test --headed --project=chromium",
+
+    "test_Login" : "npx playwright test src/tests/login.spec.ts",
+    "test_Checkout" : "npx playwright test src/tests/checkout.spec.ts",
+    "test_Registartion" : "npx playwright test src/tests/auth.spec.ts",
+
+    "test:All": "npx playwright test ",
+
     "install-browsers": "npx playwright install",
     "Show_report": "npx playwright show-report"
   },
