@@ -1,0 +1,17 @@
+{
+  "name": "playwright-advantage",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:headed": "npx playwright test --headed --project=chromium",
+    "install-browsers": "npx playwright install",
+    "Show_report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^24.10.0",
+    "typescript": "^5.0.0"
+  }
+}
