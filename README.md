@@ -106,7 +106,7 @@ export default defineConfig({
 
 ---
 
-## 🧩 Test Scenarios Covered
+## 🧩 Test Scenarios Covered [total tests 15]
 
 1. **User Registration**
    - Register a new user with required and all fields.
